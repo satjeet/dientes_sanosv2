@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:dientes_sanos/services/auth_service.dart';
-import 'package:dientes_sanos/screens/pacient/camera_screen.dart'; // Asegúrate de importar la pantalla de la cámara.
+import 'package:dientes_sanos/screens/pacient/main_screen.dart'; // Asegúrate de importar la pantalla de la cámara.
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -19,7 +19,7 @@ class _LoginScreenState extends State<LoginScreen> {
       // Verificar si el usuario ha iniciado sesión exitosamente.
       if (user != null) {
         Navigator.of(context).pushReplacement(MaterialPageRoute(
-          builder: (context) => CameraScreen(),
+          builder: (context) => MainScreen(),
         ));
       } else {
         // Mostrar un mensaje de error.

@@ -4,8 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:typed_data';
-import 'dart:js' as js;
-import 'dart:js_util' as jsUtil;
 import 'package:dientes_sanos/screens/pacient/historial_screen.dart'; // Asegúrate de importar la pantalla de la cámara.
 
 class CameraScreen extends StatefulWidget {
